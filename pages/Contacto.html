@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header" id="name">
+        <div class="logo">
+            <a href="../index.html" class="linkLogo"></a>
+                <h1>
+                    utn
+                </h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="MenuPrincipal">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="./Noticias.html">Noticias</a>
+            </li>
+            <li>
+                <a href="./Mas Noticias.html">Mas Noticias</a>
+            </li>
+            <li>
+                <a href="./Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <main id="mainContent">
+        <section id="portada">
+
+            <h2>Contacto con la empresa</h2>
+
+            <form method="post" id="formContacto">
+                <div>
+                    <label>Nombre: </label>
+                    <input type="text" name="nombre" placeholder="Introduzca su nombre" required>
+                </div>
+                <div>
+                    <label>Email: </label>
+                    <input type="email" name="Email" required>
+                </div>
+                <div>
+                    <label>Telefono: </label>
+                    <input type="tel" name="telefono" placeholder="Introduzca su Telefono" required>
+                </div>
+                <div>
+                    <label>Provincia: </label>
+                    <select name="Provincia">
+                        <option>Seleccione su provincia</option=>
+                        <option value="Caba">CABA</option>
+                        <option value="Santa Fe">Santa Fe</option>
+                        <option value="Cordoba">Córdoba</option>
+                        <option value="Mendoza">Mendoza</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Comentarios: </label>
+                    <textarea name="comentarios" cols="30" rows="10" required></textarea>
+                </div>
+                <div>
+                    <label>Password: </label>
+                    <input type="password" value="password">
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox">
+                        Quiero recibir información
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Escribenos!!" class="btn-envio">
+                </div>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
